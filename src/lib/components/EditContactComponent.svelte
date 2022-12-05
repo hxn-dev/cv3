@@ -109,7 +109,7 @@
 			<div class="mt-6 flex gap-x-4">
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<div
-					class="w-full py-1 flex justify-center bg-red-main text-white rounded cursor-pointer hover:bg-red-main-darker transition"
+					class="w-full py-1 flex justify-center items-center bg-red-main text-white rounded cursor-pointer hover:bg-red-main-darker transition"
 					on:click={() => handleEdit()}
 				>
 					{#if is_loading}

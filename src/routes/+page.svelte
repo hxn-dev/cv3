@@ -283,7 +283,7 @@
 							<!-- svelte-ignore a11y-click-events-have-key-events -->
 							<div
 								on:click={() => deleteAccount(row?.id)}
-								class="w-1/2 py-2 flex justify-center uppercase text-red-500 cursor-pointer hover:bg-red-500 hover:text-white transition"
+								class="w-1/2 py-2 flex justify-center items-center uppercase text-red-500 cursor-pointer hover:bg-red-500 hover:text-white transition"
 							>
 								{#if is_loading}
 									<Moon size="20" color="#752121" />

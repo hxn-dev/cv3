@@ -80,7 +80,7 @@
 			/>
 		</div>
 		<button
-			class="w-full flex justify-center mt-2 py-2 px-4 bg-red-main hover:bg-red-main-darker transition text-white uppercase font-semibold rounded"
+			class="w-full flex justify-center items-center mt-2 py-2 px-4 bg-red-main hover:bg-red-main-darker transition text-white uppercase font-semibold rounded"
 			on:click={() => handleLogin()}
 		>
 			{#if is_loading}
