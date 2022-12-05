@@ -21,7 +21,7 @@
 			fetch('api/login', {
 				method: 'POST',
 				body: JSON.stringify({
-					username,
+					username: username.toLowerCase(),
 					password
 				}),
 				headers: {
@@ -62,11 +62,11 @@
 	<h2 class="text-2xl text-center">Chift Odoo Login</h2>
 	<div class="form mt-4 px-4">
 		<div class="mb-4 flex flex-col">
-			<label for="username">Username</label>
+			<label for="username">Email</label>
 			<input
 				class="mt-1 px-4 border border-gray-400 rounded focus:outline-none focus:ring-0 focus:border-gray-700"
 				bind:value={username}
-				type="text"
+				type="email"
 				id="username"
 			/>
 		</div>
